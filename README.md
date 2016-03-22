@@ -1,34 +1,31 @@
 # Angular2Assign
-This is an assignment to gain exposure to Angular 2.
+## The Hero Dashboard
 
-Angular is a complete framework for writing single page applications. When using Angular, you can use a few different languages that all get transpiled to es5 (for now). These include Javascript, Typescript and Dart. There is a focus on Typescript. For this assignment you will be using Typescript.
+This assignment was completed as an introduction to Angular 2.0 following the tutorial found at [angular.io](https://angular.io/docs/ts/latest/tutorial/) for the DGM 3780 class.
 
-Learn more about Typescript [here.](http://www.typescriptlang.org/)
+###Build Instructions
 
+After cloning the repo, open the command line inside the repo root and type
 
-#Steps
-We will be stating from scratch on this assignment and pushing your finished code to you github account, and turning in a URL to the repo.
+```
+npm install
+```
 
-# Assignment
+Once node has completed it's installation simply run
 
-Your assignment is to work through the [Angular tutorial.](https://angular.io/docs/ts/latest/tutorial/)
+```
+npm start
+```
 
-You will need to turn in 7 commits. One for each chapter of the tutorial, including the quickstart guide.
+The application will launch a browser window with the proper view.
 
-Include a README file that includes the following:
+###What I have learned
 
-- Name of project
-- Build instructions
-- What you learned
-- What you found difficult
-- Why are .gitignore files important
+I am not new to the world of Angular.js although this is my first time working with version 2.0 and I find that its strucure is quite different from 1.x and I like the fact that it is much more simple on its surface
 
-Also, as part of this assignment, you will need to include a .gitignore file to ignore files that *shouldn't* be tracked by git.
+###What I found dificult
 
+I found it dificult to not stick things in different folders, and have it all in just the app folder. I like to separate my code much as the soldier from the movie Toys likes to separate his food... I will be looking at the code and seeing if I can manipulate it to further change that to my liking
 
-
-#Tips
-- Typescript is a strongly typed language. Learn more about type systems [here.](https://www.smashingmagazine.com/2013/04/introduction-to-programming-type-systems/)
-- Angular 2 is a complete rewrite from Angular 1. It is still in open beta, but it is poised to be a big deal in web development.
-- Don't worry if you don't understand all the specifics with the details of the framework. Try and keep a broad view of how things connect. At the end of the day, in Angular we are still writing web components. Like what we did in Polymer or React.
-- Research .gitignore files and why you should use them.
+###Why are .gitignore files important
+I have included a .gitignore file in this repo for the purpose of simplifying the colaborative effort. In a compiled application, only the base files and folders neccessary to build the app need to be shared. The individual developers may then have a small and easy to deploy package. This also provides a modicum of filtering for the colaboration. If someone wants to suggest changes then they need to be able to understand the underlying architecture of the app before sticking their nose in. I realize this may sound snobish but really... it helps to keep things clean and progressive.
